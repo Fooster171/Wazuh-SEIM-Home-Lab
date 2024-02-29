@@ -1,0 +1,11 @@
+<!-- Rule used for Reverse Shell exercise -->
+<group name="win-sysmon">
+  <rule id="100532" level="12">
+    <if_sid>92101</if_sid>
+    <field name="win.system.eventID">^3$</field>
+    <field name="win.eventdata.image">^C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1\.0\\\\powershell\.exe$</field>
+    <description>Network connection initiated by PowerShell</description>
+     <mitre>
+      <id>T1059.001</id>
+    </mitre>
+  </rule>
