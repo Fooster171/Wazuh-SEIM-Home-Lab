@@ -1,3 +1,4 @@
+#Script Inspired by OpenSecure
 @ECHO OFF
 ECHO.
 
