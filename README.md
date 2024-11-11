@@ -1,3 +1,5 @@
+*NOTE: This guide is out of date and currently being revised. Due to limitations, the Raspberry Pi 4 that I originally built this guide around is unable to support the Wazuh Indexer and Wazuh Dashboard. The next edition of this guide will feature a Wazuh server hosted on Linode. 
+
 # Introduction
 
 This github repository was created to track homelab exercises using Wazuh I've done for my own personal educational efforts but made public for any one who might find it useful. In the Wiki section of this repository I detail all the steps taken to install the Wazuh Server, several agents and a few example exercises for different usecases of the Wazuh solution.
